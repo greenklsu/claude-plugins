@@ -1,0 +1,8 @@
+{
+  "name": "qa-agent",
+  "version": "1.0.0",
+  "description": "General-purpose QA agent that reviews any code for correctness, completeness, performance at scale, security, and clean code practices. Works across Oracle SQL, PL/SQL, APEX, Power BI DAX, Python, and JavaScript.",
+  "author": {
+    "name": "Kyle Green"
+  }
+}
