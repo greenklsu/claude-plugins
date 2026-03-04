@@ -1,0 +1,5 @@
+{
+  "name": "qa-crit",
+  "description": "Hyper-critical production QA gate agent for code review",
+  "version": "1.0.0"
+}
