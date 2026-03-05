@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    {
+      "name": "qa-crit",
+      "description": "Hyper-critical production QA gate agent for code review",
+      "source": {
+        "source": "git-subdir",
+        "url": "greenklsu/claude-plugins",
+        "path": "qa-review-agents/qa-crit"
+      }
+    }
+  ]
+}
