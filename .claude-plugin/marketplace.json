@@ -1,13 +1,20 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "greenklsu-claude-plugins",
+  "description": "QA review agents for Claude Code",
+  "owner": {
+    "name": "Kyle Green",
+    "email": "greenklsu@users.noreply.github.com"
+  },
   "plugins": [
     {
       "name": "qa-crit",
       "description": "Hyper-critical production QA gate agent for code review",
-      "source": {
-        "source": "git-subdir",
-        "url": "greenklsu/claude-plugins",
-        "path": "qa-review-agents/qa-crit"
-      }
+      "version": "1.0.0",
+      "author": {
+        "name": "Kyle Green"
+      },
+      "source": "./qa-review-agents/qa-crit"
     }
   ]
 }
